@@ -1,11 +1,1 @@
-Numeric fused heads in paraphrase generation
-
-Paraphrases are sentences or phrases that convey the same meaning of a sentence using different wording (Bhagat and Hovy, 2013). Paraphrase generation is an important technique in natural language
-processing (NLP), which can be applied to various downstream tasks such as information retrieval, semantic parsing, dialogue systems, etc. (Li et al., 2019). Due to recent innovations in the text-2-text generation, paraphrase generation models can create various versions of a text in a creative way. However, the behavior of a model could be different for input sentences containing natural language phenomena. This evokes the following question: Are paraphrase generation models able to identify phenomena and create correct variants of a text or even to resolve the phenomena in the text output?
-One of these phenomena is Numeric fused heads (NFHs), a subclass of the more general fused heads (Elazar and Goldberg, 2019), i.e. noun phrases (NPs) in which the head noun is missing (or fused with the anchor (the determiner)). NFHs are common in natural language, specifically in spoken dialogues and they can be identified using the context of the conversation. Even though this is a trivial task for humans, misidentification of the missing head in this phenomenon could cause some complexity for NLP models and lower performance of NLP applications such as machine translation. Identification and resolution of NFHs are approached in the paper published by Elazar and Goldberg (2019).
-Research of syntactic phenomena in paraphrase generation is still a new area. This motivated us to investigate how several recent paraphrase models behave when the corpus contains NFHs. This research is performed as part of the "Computational Models of Implicit and Underspecified Language" seminar and is mainly aimed at exploring behaviors of several state-of-the-art paraphrase generation models for input sentences containing NFHs. The following questions are addressed throughout the research:
-• Which of our selected models performs best in paraphrase generation and resolving NFHs in the output?
-• Can adding context to the input help the models to identify the reference or the missing span from
-the context, and consequently improve the performance of the model?
-• Which model performs best for which category (labels)?
-• Does fine-tuning BART influence the quality of the generated paraphrases?
+# Numeric fused heads in paraphrase generation
