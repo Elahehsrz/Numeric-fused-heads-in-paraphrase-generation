@@ -1,4 +1,4 @@
-#Numeric fused heads in paraphrase generation
+Numeric fused heads in paraphrase generation
 
 Paraphrases are sentences or phrases that convey the same meaning of a sentence using different wording (Bhagat and Hovy, 2013). Paraphrase generation is an important technique in natural language
 processing (NLP), which can be applied to various downstream tasks such as information retrieval, semantic parsing, dialogue systems, etc. (Li et al., 2019). Due to recent innovations in the text-2-text generation, paraphrase generation models can create various versions of a text in a creative way. However, the behavior of a model could be different for input sentences containing natural language phenomena. This evokes the following question: Are paraphrase generation models able to identify phenomena and create correct variants of a text or even to resolve the phenomena in the text output?
